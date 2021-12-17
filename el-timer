@@ -21,7 +21,10 @@ def main():
     timer = datetime.timedelta(seconds=60*end_time) - \
         datetime.timedelta(seconds=start_time)
     timer = str(timer).split(":")
-    print(" "+timer[1] + ":" + timer[2])
+    if(int(timer[0]) == 0):
+        print(" "+timer[1] + ":" + timer[2])
+    else:
+        print(" "+timer[0] + ":" + timer[1] + ":" + timer[2])
 
 
 main()
