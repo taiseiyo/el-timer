@@ -1,4 +1,3 @@
-
 * emacs 上で動作する簡易的な stop watch 
 
 ** 言語
@@ -7,7 +6,9 @@
 
 ** 準備
 
-el-timer と el-timer.el を load-path が通っている場所に保存する。その後、以
+1. el-timer を PATH が通ってる場所に保存する、
+
+2. el-timer.el を load-path が通ってる場所に保存する。その後、以
 下のコードを .emacs などの設定ファイルに追加する
 
 #+begin_src
