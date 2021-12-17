@@ -5,3 +5,11 @@
 - emacs lisp 
 - python
 
+** 準備
+
+el-timer と el-timer.el を load-path が通っている場所に保存する。その後、以
+下のコードを .emacs などの設定ファイルに追加する
+
+#+begin_src
+(require 'el-timer)
+#+end_src
