@@ -17,7 +17,6 @@ def main():
     parse = arg_parse()
     start_time = parse.stime
     end_time = parse.etime
-    limit_time = datetime.timedelta(minutes=1)
 
     timer = datetime.timedelta(seconds=60*end_time) - \
         datetime.timedelta(seconds=start_time)
