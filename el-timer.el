@@ -16,7 +16,7 @@
 
       (if (equal (s-trim time) "00:00")
 	  (progn
-	    (cancel-timer el-timer)
+	    (cancel-timer timer)
 	    )
 	)
       )
