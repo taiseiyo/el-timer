@@ -1,0 +1,7 @@
+
+* emacs 上で動作する簡易的な stop watch 
+
+** 言語
+- emacs lisp 
+- python
+
