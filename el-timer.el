@@ -1,5 +1,5 @@
 (defun el-timer-start(end-time)
-  (interactive "BEnter end time: ")
+  (interactive "nEnter end time: ")
     (setq time-count 0
 	  tmp-line mode-line-format
 	  et end-time)
@@ -7,7 +7,7 @@
     (defun mainloop()
       (setq time-count (+ time-count 1))
       (setq time (s-trim-right (shell-command-to-string
-			  (concat "el-timer -st " (number-to-string time-count)  " -et " (number-to-string et)))))
+			  (concat "el-timer -st " (number-to-string time-count)  " -et " et))))
       (setq time (concat time " "))
       (setq mode-line-format tmp-line)
       (setq under-line mode-line-format)
