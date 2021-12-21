@@ -16,6 +16,8 @@
 #+end_src
 
 ** スクリーンショット
-https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png
-https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/mini.png
+
+[[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
+
+[[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/mini.png]]
 
