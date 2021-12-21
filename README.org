@@ -14,7 +14,12 @@
 #+begin_src
 (require 'el-timer)
 #+end_src
-
+** 実行
+- start
+  - M-x + el-timer-start
+- stop
+  - M-x + el-timer-stop
+    
 ** スクリーンショット
 
 [[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
