@@ -14,3 +14,20 @@
 #+begin_src
 (require 'el-timer)
 #+end_src
+
+** スクリーンショット
+*** column :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END: 
+#+begin_center
+[[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/mini.png]]
+#+end_center
+
+*** column :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END: 
+#+begin_center
+[[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
+#+end_center
