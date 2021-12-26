@@ -24,7 +24,8 @@
   #+attr_html: :width 50px
   #+attr_latex: :width 50px
   [[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
- 
-** デモ動画
+  [[https://github.com/taiseiyo/el-timer/blob/master/screenshot/anime.gif]]
+
+** COMMENT デモ動画
 
 [[https://github.com/taiseiyo/el-timer/blob/master/screenshot/anime.gif]]
