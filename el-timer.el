@@ -34,7 +34,7 @@
 	mode-line-format tmp-line
 	)
 
-  (while (equal nil (equal start-window end-window))
+  (while (not (equal start-window end-window))
     (other-window 1)
     (setq mode-line-format tmp-line
 	  end-window (next-window end-window)
