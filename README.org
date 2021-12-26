@@ -20,14 +20,9 @@
 - stop
   - M-x + el-timer-stop
     
-** スクリーンショット
-   #+attr_latex: 0.5:width \textwidth
-   [[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
-
-
-   #+end_center
-  [[https://github.com/taiseiyo/el-timer/blob/master/screenshot/anime.gif]]
-
-** COMMENT デモ動画
-
+** デモ動画
 [[https://github.com/taiseiyo/el-timer/blob/master/screenshot/anime.gif]]
+
+** スクリーンショット
+[[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
+
