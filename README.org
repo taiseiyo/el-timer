@@ -23,3 +23,7 @@
 ** スクリーンショット
 
 [[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
+
+** デモ動画
+
+[[https://github.com/taiseiyo/el-timer/blob/master/screenshot/anime.gif]]
