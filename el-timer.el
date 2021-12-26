@@ -31,6 +31,7 @@
   
   (setq start-window (selected-window)
 	end-window (next-window (selected-window))
+	mode-line-format tmp-line
 	)
 
   (while (equal nil (equal start-window end-window))
@@ -41,8 +42,6 @@
     )
   
   (other-window 1)
-  (setq mode-line-format tmp-line)
-
   )
 
 (provide 'el-timer)
