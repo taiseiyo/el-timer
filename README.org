@@ -29,7 +29,7 @@
     #+begin_center
   
     - [[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
-    - https://github.com/taiseiyo/el-timer/blob/master/screenshot/anime.gif]]
+    - [[https://github.com/taiseiyo/el-timer/blob/master/screenshot/anime.gif]]
 
     #+end_center
  
