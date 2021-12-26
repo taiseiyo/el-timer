@@ -21,17 +21,8 @@
   - M-x + el-timer-stop
     
 ** スクリーンショット
-*** column :BMCOL:
-    :PROPERTIES:
-    :BEAMER_col: 0.5
-    :END:
-
-    #+begin_center
-  
-    - [[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
-    - [[https://github.com/taiseiyo/el-timer/blob/master/screenshot/anime.gif]]
-
-    #+end_center
+  #+ATTR_ORG: :width 50
+  [[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
  
 ** デモ動画
 
