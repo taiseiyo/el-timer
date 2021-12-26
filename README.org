@@ -21,10 +21,10 @@
   - M-x + el-timer-stop
     
 ** スクリーンショット
-  <img alt="" src="https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png" width="50%">
 
   #+ATTR_HTML: :width 50% :height 50%  
   [[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
+  #+ATTR_HTML: :width 50% :height 50%     
   [[https://github.com/taiseiyo/el-timer/blob/master/screenshot/anime.gif]]
 
 ** COMMENT デモ動画
