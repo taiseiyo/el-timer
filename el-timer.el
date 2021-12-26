@@ -6,7 +6,7 @@
 
     (defun mainloop()
       (setq time-count (+ time-count 1))
-      (setq time (s-trim-right (shell-command-to-string
+      (setq time (string-trim-right (shell-command-to-string
 				(concat "el-timer -st " (number-to-string time-count)  " -et " (number-to-string et)))))
       
       (setq time (concat time " ")
@@ -14,7 +14,7 @@
 	    under-line mode-line-format
 	    mode-line-format (cons time under-line))
 
-      (if (equal (s-trim time) "00:00")
+      (if (equal (string-trim time) "00:00")
 	  (progn
 	    (cancel-timer timer)
 	    )
@@ -31,18 +31,18 @@
   
   (setq start-window (selected-window)
 	end-window (next-window (selected-window))
-	window-counter 1)
-  
+	)
+
   (while (equal nil (equal start-window end-window))
-    (other-window window-counter)
+    (other-window 1)
     (setq mode-line-format tmp-line
 	  end-window (next-window end-window)
-    	  window-counter (+ window-counter 1)
 	  )
     )
   
-  (other-window (+ window-counter 1))
+  (other-window 1)
   (setq mode-line-format tmp-line)
+
   )
 
 (provide 'el-timer)
