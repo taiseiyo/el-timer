@@ -22,7 +22,7 @@
     
 ** スクリーンショット
    #+attr_latex: 0.5:width \textwidth
-   https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
+   [[https://raw.githubusercontent.com/taiseiyo/el-timer/master/screenshot/whole.png]]
 
 
    #+end_center
