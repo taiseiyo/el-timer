@@ -7,7 +7,7 @@
     (defun mainloop()
       (setq time-count (+ time-count 1))
       (setq time (string-trim-right (shell-command-to-string
-				(concat "el-timer -st " (number-to-string time-count)  " -et " (number-to-string et)))))
+				(concat "python3 " (getenv "HOME") "/bin/el-timer -st " (number-to-string time-count)  " -et " (number-to-string et)))))
       
       (setq time (concat time " ")
 	    mode-line-format tmp-line
