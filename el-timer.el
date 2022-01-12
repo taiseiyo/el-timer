@@ -16,6 +16,7 @@
 
       (if (equal (string-trim time) "00:00")
 	  (progn
+	    (message "finish timer, stop working")
 	    (cancel-timer timer)
 	    )
 	)
