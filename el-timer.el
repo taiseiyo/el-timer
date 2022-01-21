@@ -47,5 +47,5 @@
 
 (provide 'el-timer)
 
-;; 00:00 の 10 秒後に mini-buffer から time を消したい
-;; 出力に色付けたい -> defface ?
+;; font-lock 色変える
+;; play-sound-file 音ならす → wav or au format file
