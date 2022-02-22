@@ -19,6 +19,10 @@
   - M-x + el-timer-start
 - stop
   - M-x + el-timer-stop
+- pause
+  - M-x + el-timer-pause
+- restart
+  - M-x + el-timer-restart
     
 ** デモ動画
 [[https://github.com/taiseiyo/el-timer/blob/master/screenshot/anime.gif]]
